@@ -13,6 +13,9 @@ def summon_captain_planet(called)
   new
 end
 
+def long_planeteer_calls(planeteer_calls)
+  planeteer_calls.any? { |call| call.length > 4 }
+end
 
 
 def find_the_cheese(cheez)
